@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainheader{
+    width: 100%;
+    height: 15vh;
+    background-color: aqua;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: #0f172b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header1{
+    width: 80%;
+    height: 100%;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+}
+.emailwala{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listwala{
+    width: 100%;
+    height: 60%;
+    background-color: whitesmoke;
+    display: flex;
+}
+.listbox{
+    width: 80%;
+    height: 100%;
+    background-color: #0f172b;
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    width: 20%;
+    height: 100%;
+    background-color: #0f172b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.emailbox{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.numberbox{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.prisub a{
+    margin-top: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 85vh;
+    background-color: aliceblue;
+    
+    z-index: -2;
+}
+h1{
+    color: white;
+}
+h2{
+    color: yellow;
+    font-style: oblique;
+    position: absolute;
+    font-size: 80px;
+    top: 30%;
+    left: 10%;
+}
+img{
+    width: 100%;
+    height: 90vh;
+}
+h3{
+    color: white;
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    left: 10%;
+    top: 60%;
+}
+.box1{
+    width: 70%;
+    height: 10%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    justify-content: space-between;
+}
+
+
+select{
+    width: 30%;
+    height: 50%;
+
+}
+.box1 input{
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+}
+button{
+    margin-left: 10px;
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+    background-color: gold;
+}
+button:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.prisub a:hover{
+    color: blue;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
